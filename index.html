@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="Styles/main.css">
+    <!-- <link rel="stylesheet" href="Styles/abordagens.css"> -->
+     <!-- <link rel="stylesheet" href="Styles/gpt.css"> -->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Marina</title>
+</head>
+<body>
+    <!-- LOGO -->
+    <main>
+            <div id="txt_entrada">
+                <h1>Tire o <span class="highlight">peso</span> das <span class="highlight">costas</span></h1>
+                <p id="description">A psicologia é para <strong>todos</strong>, basta usa abordagem certa!</p>
+                <a class="btn_cta" href="https://wa.me/5514998482231">Conheça a sua!</a>
+            </div>
+            <img id="foto_entrada" src="/src/images/foto.jpg" alt="Minha foto para identificação">
+    </main>
+
+    <section id="abordagens">
+
+    <h1>Mas qual o papel da abrodagem?</h1>
+
+
+        <ul id="card_container">
+            <li class="card" onclick="descreveFreud()" onmouseleave="fechaFreud()">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Psicanálise</h3>
+                <p id="card-freud">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit tortor eros, ut malesuada libero varius vel. Proin tristique orci metus, non auctor justo suscipit nec. Curabitur pellentesque massa maximus sapien ultrices dapibus. Aenean semper nisi id dolor ullamcorper, et vestibulum purus semper. Quisque libero purus, dapibus in odio non, rutrum mollis arcu. Aliquam tincidunt orci ac neque mollis ullamcorper at vitae orci. Morbi blandit velit dui, eget fermentum lacus interdum sed. Integer erat arcu, sagittis sit amet dui id, pharetra dignissim massa. Morbi velit ligula, tincidunt consectetur elementum et, accumsan quis nunc. Sed convallis nulla ut porta dignissim. Sed id turpis non ante viverra tincidunt.</p>
+            </li>
+            <li class="card" onclick="descreveJung()" onmouseleave="fechaJung()">
+                <i class="fa-brands fa-pagelines"></i>
+                <h3>Junguiana</h3>
+                <p id="card-jung">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit tortor eros, ut malesuada libero varius vel. Proin tristique orci metus, non auctor justo suscipit nec. Curabitur pellentesque massa maximus sapien ultrices dapibus. Aenean semper nisi id dolor ullamcorper, et vestibulum purus semper. Quisque libero purus, dapibus in odio non, rutrum mollis arcu. Aliquam tincidunt orci ac neque mollis ullamcorper at vitae orci. Morbi blandit velit dui, eget fermentum lacus interdum sed. Integer erat arcu, sagittis sit amet dui id, pharetra dignissim massa. Morbi velit ligula, tincidunt consectetur elementum et, accumsan quis nunc. Sed convallis nulla ut porta dignissim. Sed id turpis non ante viverra tincidunt.</p>
+            </li>
+            <li class="card" onclick="descreveTcc()" onmouseleave="fechaTcc()" href="#card-tcc">
+                <i class="fa-regular fa-hand-point-up"></i>
+                <h3>Cognitivo Comportamental</h3>
+                <p id="card-tcc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit tortor eros, ut malesuada libero varius vel. Proin tristique orci metus, non auctor justo suscipit nec. Curabitur pellentesque massa maximus sapien ultrices dapibus. Aenean semper nisi id dolor ullamcorper, et vestibulum purus semper. Quisque libero purus, dapibus in odio non, rutrum mollis arcu. Aliquam tincidunt orci ac neque mollis ullamcorper at vitae orci. Morbi blandit velit dui, eget fermentum lacus interdum sed. Integer erat arcu, sagittis sit amet dui id, pharetra dignissim massa. Morbi velit ligula, tincidunt consectetur elementum et, accumsan quis nunc. Sed convallis nulla ut porta dignissim. Sed id turpis non ante viverra tincidunt.</p>
+            </li>
+        </ul>
+        <a class="btn_cta" id="cta_abordagens" href="https://wa.me/5514998482231">Descubra a ideal</a>
+    </section>
+
+    <section id="motivacao">
+        <h1 id="mot-titulo">Mas o que é uma "abordagem"?</h1>
+        <p>
+            É a maneira Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit tortor eros, ut malesuada libero varius vel. Proin tristique orci metus, non auctor justo suscipit nec. Curabitur pellentesque massa maximus sapien ultrices dapibus. Aenean semper nisi id dolor ullamcorper, et vestibulum purus semper. Quisque libero purus, dapibus in odio non, rutrum mollis arcu. Aliquam tincidunt orci ac neque mollis ullamcorper at vitae orci. Morbi blandit velit dui, eget fermentum lacus interdum sed. Integer erat arcu, sagittis sit amet dui id, pharetra dignissim massa. Morbi velit ligula, tincidunt consectetur elementum et, accumsan quis nunc. Sed convallis nulla ut porta dignissim. Sed id turpis non ante viverra tincidunt.
+        </p>
+        <a class="btn_cta" id="cta_abordagens" href="https://wa.me/5514998482231">E para mim?</a>
+    </section>
+
+    <script src="/src/javascript/script.js"></script>
+</body>
+</html>

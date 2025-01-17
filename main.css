@@ -1,0 +1,149 @@
+:root{
+    --marrom: #644349;
+    --escuro: #c57d8a;
+    --medio: #f2c9d4;
+    --claro: #fae9ee;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+ font-family: "Montserrat";
+ margin: 0px;
+ border: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 3.5rem;
+    text-align: center;
+    background-image: url("../src/images/fundo_teste.png");
+    /* text-shadow: 0px 0px 0px #ffffff; */
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--marrom);
+    margin-bottom: 0.5rem;
+}
+
+h1 .highlight {
+    color: var(--escuro);
+    font-weight: bold;
+    animation: highlight-fade 3s infinite;
+}
+
+h3 {
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#txt_entrada{
+    font-size: 1.5vh;
+}
+
+.btn_cta {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--escuro);
+    color: var(--claro);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.btn_cta:hover {
+    transform: scale(1);
+    background-color: var(--claro);
+    color: var(--marrom);
+    box-shadow: 0 4px 10px rgba(99, 99, 99, 0.3);
+}
+
+
+#foto_entrada {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(99, 99, 99, 0.3);
+    margin-top: 1rem;
+}
+
+#abordagens {
+    background-color: var(--medio);
+    padding: 2rem;
+    text-align: center;
+}
+
+#abordagens h1{
+    padding-bottom: 1rem;
+}
+
+#abordagens h3 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    color: var(--marrom);
+}
+
+#cta_abordagens{
+    margin-top: 1rem;
+}
+
+#card_container{
+    list-style: none;
+    padding: 0px;
+}
+
+.card {
+    background-color: var(--claro);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    /* transform: translateY(10px); */
+    transform: scale(1.01);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+    font-size: 2rem;
+    color: var(--escuro);
+}
+
+#card-freud{
+    display: none;
+    transition: 0.5s;
+}
+
+#card-jung{
+    display: none;
+}
+
+#card-tcc{
+    display: none;
+}
+
+#motivacao{
+    background-color: var(--marrom);
+    color: var(--claro);
+    padding: 2rem;
+    /* text-align: center; */
+}
+
+#mot-titulo{
+    color: var(--medio);
+    padding-bottom: 1rem;
+}
